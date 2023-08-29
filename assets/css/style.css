@@ -229,7 +229,7 @@ li.list-item i {
 /************ Banner  Area*************/
 /************************************/
 .banner-arre{
-   background: url('/assets/images/slider1.jpg') no-repeat scroll 0 0 / 100% 100%;
+   background: url('../images/slider1.jpg') no-repeat scroll 0 0 / 100% 100%;
    padding: 150px 0px;
    position: relative;
    z-index: 1;
