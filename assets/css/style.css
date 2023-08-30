@@ -177,6 +177,11 @@ img {
 .pt-0{
    padding-top: 0px;
 }
+.grid-two{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+}
 /**************************************/
 /************ Header  Area*************/
 /************************************/
@@ -219,10 +224,11 @@ li.list-item i {
    width: 50px;
    height: auto;
 }
-.logo span {
+.logo a span {
    font-size: 14px;
    color: var(--sec-text-color);
    text-decoration: underline;
+   margin-left: 5px;
 }
 
 /**************************************/
@@ -459,4 +465,101 @@ li.list-item i {
    transition: 0.3s;
    position: relative;
    top: -5px;
+}
+
+.our-mission-vission-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   padding: 50px 0px;
+}
+.mission-icon {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   background: var(--sec-text-color);
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+.mission-vission-single {
+   padding: 25px 15px 20px 15px;
+   background: #fff;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.mission-vission-single:hover .mission-icon{
+   background: var(--primary-text-color);
+   transition: 0.5s;
+}
+.mission-vission-single:hover{
+   background: var(--sec-text-color);
+   transition: 0.5s;
+}
+
+.mission-vission-single:hover h3,
+.mission-vission-single:hover p{
+   color: #fff;
+   transition: 0.5s;
+}
+.mission-icon i {
+   color: #fff;
+   font-size: 15px;
+}
+.mission-vission-single h3 {
+   font-size: 30px;
+   line-height: 1.3;
+   font-weight: bold;
+   padding-bottom: 10px;
+}
+
+.mission-vission-single p {
+   color: #000;
+   line-height: 1.4;
+   text-align: justify;
+}
+
+.kint-fabrice-garments-grid {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 30px;
+}
+
+.kint-fabrice-list h3 {
+   font-size: 20px;
+   line-height: 1.4;
+   color: #000;
+   padding-bottom: 15px;
+}
+
+.kint-fabrice-list ul {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+}
+
+.kint-fabrice-list ul li {
+   border-bottom: 1px solid var(--sec-text-color);
+   padding-bottom: 2px;
+   font-size: 15px;
+   color: #000;
+   transition: 0.5s;
+}
+.kint-fabrice-list ul li:hover {
+   padding-left: 8px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.strangth-main-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+}
+.stn-single-item {
+   border: 1px solid #ddd;
+   padding: 5px;
+   border-radius: 8px;
 }
