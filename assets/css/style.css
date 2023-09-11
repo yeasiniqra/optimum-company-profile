@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 /*
  Landingpage Default css
 */
@@ -388,14 +389,16 @@ li.list-item i {
 }
 
 .client-list ul li {
-   border: 1px solid var(--sec-text-color);
+   border: 1px solid #ddd;
    margin: 4px;
    padding: 12px 10px;
-   font-size: 14px;
+   font-size: 13px;
    color: #000;
    transition: 0.5s;
    position: relative;
    z-index: 1;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
 }
 .client-list ul li:after {
    position: absolute;
@@ -541,11 +544,12 @@ li.list-item i {
 }
 
 .kint-fabrice-list ul li {
-   border-bottom: 1px solid var(--sec-text-color);
+   border-bottom: 1px solid #ddd;
    padding-bottom: 2px;
    font-size: 15px;
    color: #000;
    transition: 0.5s;
+   font-family: 'Poppins', sans-serif;
 }
 .kint-fabrice-list ul li:hover {
    padding-left: 8px;
